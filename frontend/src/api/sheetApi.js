@@ -1,4 +1,4 @@
-const BASE = "https://interactive-sheet.onrender.com/";
+const BASE = "https://interactive-sheet.onrender.com";
 
 export const sheetApi = {
 

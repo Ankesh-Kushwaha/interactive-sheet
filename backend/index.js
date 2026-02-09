@@ -5,7 +5,16 @@ import crypto from "crypto";
 const app = express();
 const PORT = 4000;
 
-app.use(cors());
+  app.use(
+    cors({
+      origin: [
+        "http://localhost:5173",
+        "https://interactive-sheet.onrender.com",
+      ],
+      credentials: false,
+    })
+  );
+
 app.use(express.json());
 
 const store = {
