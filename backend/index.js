@@ -10,6 +10,7 @@ const PORT = 4000;
       origin: [
         "http://localhost:5173",
         "https://interactive-sheet.onrender.com",
+       " https://interactive-sheet-seven.vercel.app/"
       ],
       credentials: false,
     })
