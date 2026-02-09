@@ -6,15 +6,16 @@ const app = express();
 const PORT = 4000;
 
   app.use(
-    cors({
-      origin: [
-        "http://localhost:5173",
-        "https://interactive-sheet.onrender.com",
-       " https://interactive-sheet-seven.vercel.app/"
-      ],
-      credentials: false,
-    })
-  );
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://interactive-sheet.onrender.com",
+      "https://interactive-sheet-seven.vercel.app",
+    ],
+    credentials: false,
+  })
+);
+
 
 app.use(express.json());
 
