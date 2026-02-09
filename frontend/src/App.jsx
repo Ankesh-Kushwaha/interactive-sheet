@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useSheetStore } from "./store/useSheetStore";
 
 import Header from "./components/layout/Header";
-import Sidebar from "./components/layout/Sidebar";
+import Sidebar from "./components/layout/SideBar";
 import MainContent from "./components/layout/MainComponent";
 
 import InputModal from "./components/models/InputModel";
